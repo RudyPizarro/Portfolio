@@ -1,0 +1,420 @@
+._src_components_resets_module__clapyResets * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    flex-shrink: 0;
+    text-decoration: none;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  
+  ._src_components_resets_module__clapyResets,
+  ._src_components_resets_module__clapyResets :not(span, a, ul, ol, li, p) {
+    display: flex;
+  }
+  
+  ._src_components_resets_module__clapyResets ul,
+  ._src_components_resets_module__clapyResets ol {
+    text-indent: 0;
+    padding-inline-start: 1.5em;
+  }
+  
+  ._src_components_resets_module__clapyResets p:empty::before {
+    content: "";
+    display: inline-block;
+  }
+  
+  ._src_components_resets_module__clapyResets img {
+    object-fit: contain;
+  }
+  
+  ._src_components_resets_module__clapyResets svg {
+    overflow: visible;
+  }
+  ._src_components_HomePage_CaseLink_HoveredNo_CaseLink_HoveredNo_module__root {
+    position: relative;
+    width: 180px;
+    height: 152px;
+    align-items: center;
+    padding: 0 0 0 36px;
+  }
+  ._src_components_HomePage_CaseLink_HoveredNo_CaseLink_HoveredNo_module__text {
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_CaseLink_HoveredNo_CaseLink_HoveredNo_module__textBlock {
+    color: #000;
+    font-size: 18px;
+    line-height: 110%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_CaseLink_HoveredNo_CaseLink_HoveredNo_module__textBlock2 {
+    margin-top: 0;
+    color: #000;
+    font-size: 18px;
+    line-height: 110%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_ExternalLink_HoveredNo_ExternalLink_HoveredNo_module__root {
+    width: min-content;
+    height: min-content;
+    padding: 24px 8px 8px;
+  }
+  ._src_components_HomePage_ExternalLink_HoveredNo_ExternalLink_HoveredNo_module__contact {
+    color: #696969;
+    font-size: 32px;
+    line-height: 15px;
+    font-weight: 300;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+  ._src_components_HomePage_HomePage_module__contact {
+    color: #696969;
+    font-size: 40px;
+    line-height: 19px;
+    font-weight: 300;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__externalLink2._src_components_HomePage_HomePage_module__externalLink2 {
+    padding: 30px 10.0026px 10.0026px;
+  }
+  ._src_components_HomePage_HomePage_module__contact2 {
+    color: #696969;
+    font-size: 40px;
+    line-height: 19px;
+    font-weight: 300;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    width: min-content;
+    height: min-content;
+    text-align: end;
+    align-items: end;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__caseLink._src_components_HomePage_HomePage_module__caseLink {
+    width: 224px;
+    height: initial;
+    align-self: stretch;
+    padding: 0 0 0 45px;
+  }
+  ._src_components_HomePage_HomePage_module__text {
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock {
+    color: #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock2 {
+    margin-top: 0;
+    color: #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_HomePage_module__caseLink2._src_components_HomePage_HomePage_module__caseLink2 {
+    position: initial;
+    width: 224px;
+    height: initial;
+    align-self: stretch;
+    padding: 0 0 0 45px;
+  }
+  ._src_components_HomePage_HomePage_module__text2 {
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock3 {
+    color: #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock4 {
+    margin-top: 0;
+    color: #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_HomePage_module__caseLink3._src_components_HomePage_HomePage_module__caseLink3 {
+    position: initial;
+    width: 224px;
+    height: initial;
+    align-self: stretch;
+    padding: 0 0 0 45px;
+  }
+  ._src_components_HomePage_HomePage_module__text3 {
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock5 {
+    color: #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock6 {
+    margin-top: 0;
+    color: #000;
+    font-size: 22px;
+    line-height: 100%;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.05em;
+  }
+  ._src_components_HomePage_HomePage_module__root {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #e7e9ef;
+    overflow: hidden;
+  }
+  ._src_components_HomePage_HomePage_module__nav {
+    height: min-content;
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 10.0026px;
+    padding: 0 0 0 20.0052px;
+    background-image: linear-gradient(-90deg, #ffff 0%, #fff0 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  ._src_components_HomePage_HomePage_module__content {
+    flex: 1;
+    align-self: stretch;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__caseStudies {
+    flex: 1;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 32vh 0 0;
+  }
+  ._src_components_HomePage_HomePage_module__caseOne {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    align-items: center;
+  }
+  ._src_components_HomePage_HomePage_module__stripeLime {
+    flex: 1;
+    align-self: stretch;
+    background-image: linear-gradient(180deg, #e6f1c7ff 0%, #c6eea6ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  ._src_components_HomePage_HomePage_module__hero {
+    position: absolute;
+    left: calc(50% - 163.558px);
+    top: -123.4446px;
+    width: min-content;
+    height: min-content;
+    flex-direction: column;
+    transform: translateX(-50%);
+  }
+  ._src_components_HomePage_HomePage_module__content2 {
+    position: relative;
+    width: min-content;
+    height: min-content;
+    align-self: flex-start;
+    align-items: baseline;
+  }
+  ._src_components_HomePage_HomePage_module__text4 {
+    color: #000;
+    font-size: 262px;
+    line-height: 202px;
+    font-weight: 500;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    width: 420.1095px;
+    height: 165.043px;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__text5 {
+    color: #000;
+    font-size: 145px;
+    line-height: 120.0313px;
+    font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.02em;
+    width: 460.1199px;
+    height: 102.5267px;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__quote {
+    position: absolute;
+    left: calc(50% - -123.7823px);
+    top: calc(50% - -158.7914px);
+    width: min-content;
+    height: min-content;
+    padding: 0 0 0 15.0039px;
+    transform: translate(-50%, -50%);
+  }
+  ._src_components_HomePage_HomePage_module__text6 {
+    width: 272.571px;
+    height: 66.2673px;
+    justify-content: center;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock7 {
+    color: #000;
+    font-size: 45px;
+    line-height: 100%;
+    font-weight: 300;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.02em;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock8 {
+    margin-top: 0;
+    color: #000;
+    font-size: 45px;
+    line-height: 100%;
+    font-weight: 300;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.02em;
+  }
+  ._src_components_HomePage_HomePage_module__title {
+    position: absolute;
+    right: 89px;
+    top: -78px;
+    width: min-content;
+    height: min-content;
+    padding: 0 0 10.0026px;
+    box-shadow: inset 0px -2px 0px #000;
+  }
+  ._src_components_HomePage_HomePage_module__text7 {
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock9 {
+    color: #000;
+    font-size: 35px;
+    line-height: 100%;
+    font-weight: 500;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.04em;
+  }
+  ._src_components_HomePage_HomePage_module__textBlock10 {
+    margin-top: 0;
+    color: #000;
+    font-size: 35px;
+    line-height: 100%;
+    font-weight: 500;
+    font-family: Teko, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: 0.04em;
+  }
+  ._src_components_HomePage_HomePage_module__caseTwo {
+    flex: 1;
+    align-self: stretch;
+  }
+  ._src_components_HomePage_HomePage_module__stripeOcean {
+    flex: 1;
+    align-self: stretch;
+    background-image: linear-gradient(180deg, #afdee8ff 0%, #87c4e7ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  ._src_components_HomePage_HomePage_module__caseThree {
+    flex: 1;
+    align-self: stretch;
+  }
+  ._src_components_HomePage_HomePage_module__stripeSky {
+    flex: 1;
+    align-self: stretch;
+    background-image: linear-gradient(
+      180deg,
+      #7c94f9ff 0%,
+      #5c81f9ff 100%,
+      #5c6cf9ff 100%
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-basis: 100%;
+    width: 100%;
+  }
+  
+  #root {
+    position: relative;
+  }
+  
+  body button:not(:disabled) {
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  body label {
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
