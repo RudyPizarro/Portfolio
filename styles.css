@@ -43,49 +43,28 @@
   overflow: visible;
 }
 
-.externalLink {
-  padding: 0 10.0026px 8px;
-  box-shadow: inset 0px -2.5007px 0px #000;
+.link {
+  padding: 0 10px 8px;
+}
+
+.link_hover {
+  box-shadow: inset 0px -2.5007px 0px #CACACA;
+}
+
+.sociallink {
+  display: flex;
+  width: 34px;
+  height: 34px;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 5.001px;
+  border-radius: 2px;
+  border: 1px solid #FFF;
 }
 
 .contact {
-  color: #3c3c3c;
-  font-size: 22px;
-  line-height: 19px;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  text-transform: capitalize;
-  width: min-content;
-  height: min-content;
-  text-align: end;
-  align-items: end;
-  white-space: nowrap;
-  flex-direction: column;
-}
-
-.externalLink2 {
-  padding: 0 10.0026px 8px;
-}
-
-.contact2 {
-  color: #696969;
-  font-size: 22px;
-  line-height: 19px;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  text-transform: capitalize;
-  width: min-content;
-  height: min-content;
-  text-align: end;
-  align-items: end;
-  white-space: nowrap;
-  flex-direction: column;
-}
-
-.externalLink3 {
-  padding: 0 10.0026px 8px;
-}
-
-.contact3 {
-  color: #696969;
+  color: #ebebeb;
   font-size: 22px;
   line-height: 19px;
   font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
@@ -115,11 +94,10 @@
   position: relative;
   height: min-content;
   align-self: stretch;
+  padding: 24px 24px 16px 24px;
   align-items: flex-end;
-  gap: 10.0026px;
-  padding: 24px 0 0 24px;
-  background: linear-gradient(282deg, #C4C4C4 66.81%, #FFF 116.88%);
-  background-blend-mode: lighten;
+  gap: 24px;
+  background: linear-gradient(0deg, #000 0%, #000 100%), linear-gradient(282deg, #C4C4C4 66.81%, #FFF 116.88%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
