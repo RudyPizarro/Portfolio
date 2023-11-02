@@ -285,7 +285,7 @@ font-weight: 400;
 .message {
   z-index: 3;
   opacity: 0.70;
-  color: #ff1b1b;
+  color: #000;
   font-size: 1.6vw;
   line-height: 100%;
   font-family: "ff-zwo-corr-web-pro", sans-serif;
