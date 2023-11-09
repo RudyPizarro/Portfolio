@@ -227,7 +227,7 @@ font-weight: 400;
   opacity: 0.79;
   flex: 1;
   align-self: stretch;
-  background-image: linear-gradient(180deg, #4a75ffff 0%, #0943ffff 100%);
+  background: linear-gradient(269deg, rgba(223, 237, 137, 0.00) 0%, #C1ED89 87.93%, #ABF053 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
