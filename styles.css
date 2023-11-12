@@ -43,7 +43,7 @@
   overflow: visible;
 }
 
-._src_components_Home_page_Home_page_module__root {
+.root {
   width: 100vw;
   height: 100vh;
   flex-direction: column;
@@ -53,25 +53,25 @@
   background-size: auto;
 }
 
-._src_components_Home_page_Home_page_module__topBar {
+.topBar {
   height: min-content;
   align-self: stretch;
   align-items: flex-start;
   gap: 17px;
 }
 
-._src_components_Home_page_Home_page_module__logo {
+.logo {
   width: 102px;
   height: 87px;
   overflow: visible;
 }
 
-._src_components_Home_page_Home_page_module__icon {
+.icon {
   width: 100%;
   height: 100%;
 }
 
-._src_components_Home_page_Home_page_module__nav {
+.nav {
   height: min-content;
   flex: 1;
   align-items: flex-end;
@@ -80,7 +80,7 @@
   box-shadow: 0px 1px 0px #151515;
 }
 
-._src_components_Home_page_Home_page_module__message {
+.message {
   color: #151515;
   font-size: 32px;
   line-height: 64%;
@@ -91,7 +91,7 @@
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__internal_link_one {
+.internal_link_one {
   width: min-content;
   height: 34px;
   align-items: center;
@@ -100,13 +100,14 @@
   background-color: #151515;
 }
 
-._src_components_Home_page_Home_page_module__text {
+.text {
   color: #fff;
   font-size: 22px;
   line-height: 19px;
   font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  font-weight: 400;
+  font-variant: small-caps;
   width: min-content;
   height: min-content;
   text-align: end;
@@ -115,7 +116,7 @@
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__internal_link_two {
+.internal_link_two {
   width: min-content;
   height: 34px;
   align-items: center;
@@ -125,13 +126,14 @@
   border-radius: 2px;
 }
 
-._src_components_Home_page_Home_page_module__text2 {
+.text2 {
   color: #151515;
   font-size: 22px;
   line-height: 19px;
   font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  font-weight: 400;
+  font-variant: small-caps;
   z-index: 0;
   width: min-content;
   height: min-content;
@@ -141,35 +143,35 @@
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__copy_email {
+.copy_email {
   width: 34px;
   height: 34px;
   overflow: visible;
 }
 
-._src_components_Home_page_Home_page_module__icon2 {
+.icon2 {
   width: 100%;
   height: 100%;
 }
 
-._src_components_Home_page_Home_page_module__externalLink_two {
+.externalLink_two {
   width: 34px;
   height: 34px;
   overflow: visible;
 }
 
-._src_components_Home_page_Home_page_module__icon3 {
+.icon3 {
   width: 100%;
   height: 100%;
 }
 
-._src_components_Home_page_Home_page_module__main_content {
+.main_content {
   flex: 1;
   align-self: stretch;
   gap: 100px;
 }
 
-._src_components_Home_page_Home_page_module__intro {
+.intro {
   width: min-content;
   align-self: stretch;
   flex-direction: column;
@@ -179,21 +181,21 @@
   padding: 0 0 59px 101px;
 }
 
-._src_components_Home_page_Home_page_module__tile {
+.tile {
   width: min-content;
   height: min-content;
   flex-direction: column;
   padding: 0 0 0 3px;
 }
 
-._src_components_Home_page_Home_page_module__text22 {
+.text22 {
   width: min-content;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__textBlock {
+.textBlock {
   color: #151515;
   font-size: 171px;
   line-height: 84.495%;
@@ -202,7 +204,7 @@
   letter-spacing: -0.07em;
 }
 
-._src_components_Home_page_Home_page_module__textBlock2 {
+.textBlock2 {
   margin-top: 0;
   color: #151515;
   font-size: 171px;
@@ -212,17 +214,17 @@
   letter-spacing: -0.07em;
 }
 
-._src_components_Home_page_Home_page_module__textBlock3 {
+.textBlock3 {
   margin-top: 0;
 }
 
-._src_components_Home_page_Home_page_module__labelWrapper {
+.labelWrapper {
   font-size: 171px;
   font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   flex-shrink: 1;
 }
 
-._src_components_Home_page_Home_page_module__label {
+.label {
   color: #151515;
   font-size: 171px;
   line-height: 84.495%;
@@ -231,7 +233,7 @@
   letter-spacing: -0.07em;
 }
 
-._src_components_Home_page_Home_page_module__label2 {
+.label2 {
   color: #151515;
   font-size: 171px;
   line-height: 84.495%;
@@ -240,13 +242,13 @@
   letter-spacing: -0.06em;
 }
 
-._src_components_Home_page_Home_page_module__paragraph {
+.paragraph {
   width: min-content;
   height: min-content;
   padding: 0 0 0 16px;
 }
 
-._src_components_Home_page_Home_page_module__text3 {
+.text3 {
   color: #151515;
   font-size: 24px;
   line-height: 30px;
@@ -257,14 +259,14 @@
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__case_studies {
+.case_studies {
   flex: 1;
   align-self: stretch;
   flex-direction: column;
   padding: 454px 0 0;
 }
 
-._src_components_Home_page_Home_page_module__title {
+.title {
   height: min-content;
   align-self: stretch;
   align-items: center;
@@ -272,19 +274,20 @@
   padding: 16px 12px 16px 0;
 }
 
-._src_components_Home_page_Home_page_module__text_4 {
+.text_4 {
   color: #151515;
   font-size: 46px;
   font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-weight: 300;
   letter-spacing: -0.02em;
-  text-transform: capitalize;
+  font-variant: small-caps;
   width: min-content;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__accent_line {
+.accent_line {
   max-width: 100%;
   height: 1px;
   max-height: 100%;
@@ -292,7 +295,7 @@
   background-color: #151515;
 }
 
-._src_components_Home_page_Home_page_module__case_links {
+.case_links {
   flex: 1;
   align-self: stretch;
   flex-direction: column;
@@ -300,7 +303,7 @@
   padding: 0 12px 12px 0;
 }
 
-._src_components_Home_page_Home_page_module__avd {
+.avd {
   flex: 1;
   align-self: stretch;
   align-items: center;
@@ -310,23 +313,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  box-shadow: inset -8px 0px 0px #8626ff;
+  border-left: 8px solid #8626FF;
 }
 
-._src_components_Home_page_Home_page_module__text4 {
+.text4 {
   color: #151515;
   font-size: 22px;
   line-height: 100%;
   font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-weight: 400;
   letter-spacing: 0.06em;
-  text-transform: capitalize;
+  font-variant: small-caps;
   width: min-content;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__tm {
+.tm {
   flex: 1;
   align-self: stretch;
   align-items: center;
@@ -336,23 +340,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  box-shadow: inset -8px 0px 0px #8bd927;
+  border-left: 8px solid #8BD927;
 }
 
-._src_components_Home_page_Home_page_module__text5 {
+.text5 {
   color: #151515;
   font-size: 22px;
   line-height: 100%;
   font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-weight: 400;
   letter-spacing: 0.06em;
-  text-transform: capitalize;
+  font-variant: small-caps;
   width: min-content;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }
 
-._src_components_Home_page_Home_page_module__fs {
+.fs {
   flex: 1;
   align-self: stretch;
   align-items: center;
@@ -362,16 +367,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  box-shadow: inset -8px 0px 0px #73cdff;
+  border-left: 8px solid #73CDFF;
 }
 
-._src_components_Home_page_Home_page_module__text6 {
+.text6 {
   color: #151515;
   font-size: 22px;
   line-height: 100%;
   font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-weight: 400;
   letter-spacing: 0.06em;
-  text-transform: capitalize;
+  font-variant: small-caps;
   width: min-content;
   height: min-content;
   white-space: nowrap;
