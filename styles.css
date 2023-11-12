@@ -1,7 +1,7 @@
-._src__root {
+._src_App_module__root {
   height: 100%;
   font-family: sans-serif;
-  background-color: #555657;
+  background-color: #565656;
   flex-basis: 100%;
   overflow-y: auto;
 }
@@ -43,32 +43,69 @@
   overflow: visible;
 }
 
-.link {
-  padding: 0 10px 8px;
+._src_components_Home_page_Home_page_module__root {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  background-image: linear-gradient(-16.4deg, #ebebebff 0%, #ebebebff 42%, #c5c5c5ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
-.link_hover {
-  box-shadow: inset 0px -2.5007px 0px #CACACA;
+._src_components_Home_page_Home_page_module__topBar {
+  height: min-content;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 17px;
 }
 
-.sociallink {
-  display: flex;
-  width: 34px;
+._src_components_Home_page_Home_page_module__logo {
+  width: 102px;
+  height: 87px;
+  overflow: visible;
+}
+
+._src_components_Home_page_Home_page_module__icon {
+  width: 100%;
+  height: 100%;
+}
+
+._src_components_Home_page_Home_page_module__nav {
+  height: min-content;
+  flex: 1;
+  align-items: flex-end;
+  gap: 24px;
+  padding: 45px 24px 8px 0;
+  box-shadow: 0px 1px 0px #151515;
+}
+
+._src_components_Home_page_Home_page_module__message {
+  color: #151515;
+  font-size: 32px;
+  line-height: 64%;
+  font-weight: 300;
+  font-family: Mixta Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+
+._src_components_Home_page_Home_page_module__internal_link_one {
+  width: min-content;
   height: 34px;
-  padding: 6px;
-  justify-content: center;
   align-items: center;
-  gap: 5.001px;
+  padding: 0 24px 4px;
   border-radius: 2px;
-  border: 1px solid #FFF;
+  background-color: #151515;
 }
 
-.contact {
-  color: #ebebeb;
+._src_components_Home_page_Home_page_module__text {
+  color: #fff;
   font-size: 22px;
   line-height: 19px;
-  font-family: "ff-zwo-corr-web-pro", sans-serif;
-  font-weight: 400;
+  font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   width: min-content;
   height: min-content;
@@ -78,274 +115,263 @@
   flex-direction: column;
 }
 
-.root {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  flex-direction: column;
-  align-items: flex-start;
-  background-image: linear-gradient(180deg, #bcbcbcff 0%, #ebebebff 42%, #ebebebff 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  overflow: hidden;
-}
-
-.nav {
-  position: relative;
-  height: min-content;
-  align-self: stretch;
-  padding: 24px 24px 16px 24px;
-  align-items: flex-end;
-  gap: 24px;
-  background: #000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.caseStudies {
-  position: relative;
-  flex: 1;
-  align-self: stretch;
-  flex-direction: column;
-  padding: 32vh 0 0;
-}
-
-.three { 
-  z-index: 2;
-  flex: 1;
-  align-self: stretch;
-  background-color: #ebebeb;
-}
-
-.stripeSky {
-  opacity: 0.79;
-  flex: 1;
-  align-self: stretch;
-  background-image: linear-gradient(269deg, rgba(223, 237, 137, 0.00) 0%, #C1ED89 87.93%, #ABF053 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.caseLink {
-  width: 258px;
-  align-self: stretch;
+._src_components_Home_page_Home_page_module__internal_link_two {
+  width: min-content;
+  height: 34px;
   align-items: center;
-  padding: 0 0 0 54px;
-  background-color: #ebebeb;
+  padding: 0 24px 4px;
+  outline: solid 1px #151515;
+  outline-offset: -1px;
+  border-radius: 2px;
 }
 
-.text {
+._src_components_Home_page_Home_page_module__text2 {
+  color: #151515;
+  font-size: 22px;
+  line-height: 19px;
+  font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  z-index: 0;
   width: min-content;
   height: min-content;
+  text-align: end;
+  align-items: end;
   white-space: nowrap;
   flex-direction: column;
 }
 
-.textBlock {
-  color: #000;
-  font-size: 22px;
-  line-height: 100%;
-  font-family: "ff-zwo-corr-web-pro", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.05em;
+._src_components_Home_page_Home_page_module__copy_email {
+  width: 34px;
+  height: 34px;
+  overflow: visible;
 }
 
-.textBlock2 {
-  margin-top: 0;
-  color: #000;
-  font-size: 22px;
-  line-height: 100%;
-font-family: "ff-zwo-corr-web-pro", sans-serif;
-font-weight: 400;
-  letter-spacing: 0.05em;
+._src_components_Home_page_Home_page_module__icon2 {
+  width: 100%;
+  height: 100%;
 }
 
-.two { 
-  z-index: 1;
+._src_components_Home_page_Home_page_module__externalLink_two {
+  width: 34px;
+  height: 34px;
+  overflow: visible;
+}
+
+._src_components_Home_page_Home_page_module__icon3 {
+  width: 100%;
+  height: 100%;
+}
+
+._src_components_Home_page_Home_page_module__main_content {
   flex: 1;
   align-self: stretch;
-  background-color: #ebebeb;
+  gap: 100px;
 }
 
-.stripeOcean {
-  opacity: 0.79;
-  flex: 1;
-  align-self: stretch;
-  background: linear-gradient(269deg, rgba(113, 248, 167, 0.00) 0%, #71C8F8 87.89%, #17ACFF 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.caseLink2 {
-  width: 258px;
-  align-self: stretch;
-  align-items: center;
-  padding: 0 0 0 54px;
-  background-color: #ebebeb;
-}
-
-.text2 {
+._src_components_Home_page_Home_page_module__intro {
   width: min-content;
-  height: min-content;
-  white-space: nowrap;
+  align-self: stretch;
   flex-direction: column;
-}
-
-.textBlock3 {
-  color: #000;
-  font-size: 22px;
-  line-height: 100%;
-  font-weight: 500;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  letter-spacing: 0.05em;
-}
-
-.textBlock4 {
-  margin-top: 0;
-  color: #000;
-  font-size: 22px;
-  line-height: 100%;
-  font-weight: 500;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  letter-spacing: 0.05em;
-}
-
-.one {    
-  flex: 1;
-  align-self: stretch;
-  background-color: #ebebeb;
-}
-
-.stripeLime {
-  opacity: 0.79;
-  flex: 1;
-  align-self: stretch;
-  background: linear-gradient(269deg, rgba(74, 92, 255, 0.00) 0%, #4A75FF 87.81%, #0943FF 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.caseLink3 {
-  width: 258px;
-  align-self: stretch;
-  align-items: center;
-  padding: 0 0 0 54px;
-  background-color: #ebebeb;
-}
-
-.text3 {
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
-}
-
-.textBlock5 {
-  color: #000;
-  font-size: 22px;
-  line-height: 100%;
-  font-weight: 500;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  letter-spacing: 0.05em;
-}
-
-.textBlock6 {
-  margin-top: 0;
-  color: #000;
-  font-size: 22px;
-  line-height: 100%;
-  font-weight: 500;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  letter-spacing: 0.05em;
-}
-
-.hero {
-  z-index: 3;
-  position: absolute;
-  left: calc(50% - 119px);
-  top: 23vh;
-  width: min-content;
-  height: min-content;
-  flex-direction: column-reverse;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 16px;
-  transform: translateX(-50%);
+  gap: 38px;
+  padding: 0 0 59px 101px;
 }
 
-.message {
-  z-index: 3;
-  opacity: 0.70;
-  color: #000;
-  font-size: 1.6vw;
-  line-height: 100%;
-  font-family: "ff-zwo-corr-web-pro", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.14em;
-  position: absolute;
-  left: 1vw;
-  bottom: 21px;
+._src_components_Home_page_Home_page_module__tile {
+  width: min-content;
+  height: min-content;
+  flex-direction: column;
+  padding: 0 0 0 3px;
+}
+
+._src_components_Home_page_Home_page_module__text22 {
   width: min-content;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
 }
 
-.my_name {
-  position: relative;
+._src_components_Home_page_Home_page_module__textBlock {
+  color: #151515;
+  font-size: 171px;
+  line-height: 84.495%;
+  font-weight: 900;
+  font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: -0.07em;
+}
+
+._src_components_Home_page_Home_page_module__textBlock2 {
+  margin-top: 0;
+  color: #151515;
+  font-size: 171px;
+  line-height: 84.495%;
+  font-weight: 900;
+  font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: -0.07em;
+}
+
+._src_components_Home_page_Home_page_module__textBlock3 {
+  margin-top: 0;
+}
+
+._src_components_Home_page_Home_page_module__labelWrapper {
+  font-size: 171px;
+  font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  flex-shrink: 1;
+}
+
+._src_components_Home_page_Home_page_module__label {
+  color: #151515;
+  font-size: 171px;
+  line-height: 84.495%;
+  font-weight: 900;
+  font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: -0.07em;
+}
+
+._src_components_Home_page_Home_page_module__label2 {
+  color: #151515;
+  font-size: 171px;
+  line-height: 84.495%;
+  font-weight: 900;
+  font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: -0.06em;
+}
+
+._src_components_Home_page_Home_page_module__paragraph {
   width: min-content;
   height: min-content;
-  z-index: 0;
-  align-items: baseline;
+  padding: 0 0 0 16px;
 }
 
-.rudy {
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  color: #000;
-  font-size: 11.5vw;
-  font-family: "mixta-sharp", serif;
-  font-weight: 800;
-  font-style: normal;
-  letter-spacing: -0.07em;
-  text-transform: uppercase;
-  flex-shrink: 1;
-  flex-direction: column;
-}
-
-.labelWrapper {
-  font-size: 207px;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  flex-shrink: 1;
-}
-
-.label {
-  color: #000;
-  font-size: 207px;
-  line-height: 202px;
-  font-weight: 800;
-  font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  letter-spacing: -0.07em;
-  text-transform: uppercase;
-  flex-shrink: 1;
-}
-
-
-
-.pizarro {
-  color: #000;
-  font-size: 8vw;
-  line-height: 120.0313px;
+._src_components_Home_page_Home_page_module__text3 {
+  color: #151515;
+  font-size: 24px;
+  line-height: 30px;
   font-weight: 500;
-  font-style: italic;
-  font-family: Playfair Display, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  font-family: Mixta Sharp, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  width: 431px;
+  height: min-content;
+  flex-direction: column;
+}
+
+._src_components_Home_page_Home_page_module__case_studies {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  padding: 454px 0 0;
+}
+
+._src_components_Home_page_Home_page_module__title {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 12px 16px 0;
+}
+
+._src_components_Home_page_Home_page_module__text_4 {
+  color: #151515;
+  font-size: 46px;
+  font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -0.02em;
+  text-transform: capitalize;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+._src_components_Home_page_Home_page_module__accent_line {
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  flex: 1;
+  background-color: #151515;
+}
+
+._src_components_Home_page_Home_page_module__case_links {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 12px 12px 0;
+}
+
+._src_components_Home_page_Home_page_module__avd {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 48px;
+  border-radius: 2px;
+  background-image: linear-gradient(270deg, #8626ffff 0%, #a866ffff 13%, #d4b2ff00 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: inset -8px 0px 0px #8626ff;
+}
+
+._src_components_Home_page_Home_page_module__text4 {
+  color: #151515;
+  font-size: 22px;
+  line-height: 100%;
+  font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+._src_components_Home_page_Home_page_module__tm {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 48px;
+  border-radius: 2px;
+  background-image: linear-gradient(-90deg, #8ad926ff 0%, #b7d98cff 13%, #b7d98c00 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: inset -8px 0px 0px #8bd927;
+}
+
+._src_components_Home_page_Home_page_module__text5 {
+  color: #151515;
+  font-size: 22px;
+  line-height: 100%;
+  font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+._src_components_Home_page_Home_page_module__fs {
+  flex: 1;
+  align-self: stretch;
+  align-items: center;
+  padding: 0 0 0 48px;
+  border-radius: 2px;
+  background-image: linear-gradient(-90deg, #73cdffff 0%, #99daffff 13%, #d5f0ff00 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: inset -8px 0px 0px #73cdff;
+}
+
+._src_components_Home_page_Home_page_module__text6 {
+  color: #151515;
+  font-size: 22px;
+  line-height: 100%;
+  font-family: Zwo Pro, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
   width: min-content;
   height: min-content;
   white-space: nowrap;
