@@ -276,7 +276,6 @@ body label {
 
 .case_studies {
 display: flex;
-min-width: 411px;
 flex-direction: column;
 justify-content: flex-end;
 align-items: flex-end;
