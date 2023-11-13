@@ -1,48 +1,38 @@
 @import url("https://use.typekit.net/ctb0icl.css");
 
-._src_App_module__root {
-  height: 100%;
-  font-family: sans-serif;
-  background-color: #565656;
-  flex-basis: 100%;
-  overflow-y: auto;
-}
-
-._src_components_resets_module__clapyResets,
-._src_components_resets_module__clapyResets * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background: none;
-  border: none;
-  flex-shrink: 0;
-  text-decoration: none;
-  min-width: 0;
-  overflow-wrap: anywhere;
-}
-
-._src_components_resets_module__clapyResets,
-._src_components_resets_module__clapyResets :not(span, a, ul, ol, li, p) {
+.root,
+.root :not(span, a, ul, ol, li, p) {
   display: flex;
 }
 
-._src_components_resets_module__clapyResets ul,
-._src_components_resets_module__clapyResets ol {
+.root ul,
+.root ol {
   text-indent: 0;
   padding-inline-start: 1.5em;
 }
 
-._src_components_resets_module__clapyResets p:empty::before {
+.root p:empty::before {
   content: "";
   display: inline-block;
 }
 
-._src_components_resets_module__clapyResets img {
+.root img {
   object-fit: contain;
 }
 
-._src_components_resets_module__clapyResets svg {
+.root svg {
   overflow: visible;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: flex;
+  flex-basis: 100%;
+  width: 100%;
 }
 
 .root {
@@ -53,6 +43,30 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+#root {
+  position: relative;
+}
+
+body button:not(:disabled) {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body label {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .topBar {
@@ -386,31 +400,4 @@ align-self: stretch;
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
-}
-
-html,
-body,
-#root {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
-  display: flex;
-  flex-basis: 100%;
-  width: 100%;
-}
-
-#root {
-  position: relative;
-}
-
-body button:not(:disabled) {
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-body label {
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
 }
