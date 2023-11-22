@@ -36,10 +36,10 @@ html,body{
     .link {
       color: #1F1F1F;
       text-align: right;
-      font-family: Zwo Pro;
-      font-size: 35px;
-      font-style: normal;
+      font-family: ff-zwo-web-pro, sans-serif;
       font-weight: 100;
+      font-style: normal;
+      font-size: 35px;
       line-height: 67%; /* 23.45px */
       font-variant: all-small-caps;
       letter-spacing: -1.75px;
@@ -60,9 +60,9 @@ html,body{
     .rudy {
       color: #1f1f1f;
       font-size: 171px;
-      font-style: normal;
-      font-family: "Mixta Sharp",sans-serif;
+      font-family: mixta-sharp, serif;
       font-weight: 900;
+      font-style: normal;
       line-height: 144px;
       letter-spacing: -9px;
       text-transform: none;
@@ -72,7 +72,7 @@ html,body{
       color: #1f1f1f;
       font-size: 138px;
       font-style: italic;
-      font-family: "Playfair Display",serif;
+      font-family: 'DM Serif Display', serif;
       font-weight: 400;
       line-height: 234px;
       letter-spacing: -6px;
@@ -118,10 +118,10 @@ html,body{
       gap: 24px;
       align-self: stretch;
       color: #1F1F1F;
-      font-family: Zwo Pro;
-      font-size: 46px;
-      font-style: normal;
+      font-family: ff-zwo-web-pro, sans-serif;
       font-weight: 100;
+      font-style: normal;
+      font-size: 46px;
       line-height: normal;
       font-variant: all-small-caps;
       letter-spacing: -0.92px;
