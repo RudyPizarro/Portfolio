@@ -150,7 +150,7 @@ html,body{
       border-radius: 2px;
       border-left: 8px solid #4A92FF;
       background: linear-gradient(270deg, #4A92FF 0%, rgba(255, 255, 255, 0.00) 100%);
-      margin: 0 48px 48px 48px;
+      margin: 0 5vh 5vh 5vh;
     }
   }
 }
