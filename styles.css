@@ -26,10 +26,10 @@ html,body{
     .message {
       flex: 1 0 0;
       color: #1F1F1F;
-      font-family: Mixta Pro;
+      font-family: "Mixta Pro",sans-serif;
       font-size: 28px;
       font-style: italic;
-      font-weight: 200;
+      font-weight: 100;
       line-height: 62%; /* 17.36px */
     }
   
