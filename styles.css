@@ -18,7 +18,7 @@ html,body{
   .nav {
 
     display: flex;
-    padding: 48px 48px 0px 48px;
+    padding: 5vh 5vh 0px 5vh;
     align-items: flex-end;
     gap: 17px;
     align-self: stretch;
@@ -106,7 +106,7 @@ html,body{
       line-height: normal;
       font-variant: all-small-caps;
       letter-spacing: -0.92px;
-      margin: 0 48px 0px 48px;
+      margin: 0 5vh 0px 5vh;
     }
 
     .case {
@@ -124,7 +124,7 @@ html,body{
       line-height: 100%; /* 22px */
       font-variant: all-small-caps;
       letter-spacing: 1.32px;
-      margin: 0 48px 0px 48px;
+      margin: 0 5vh 0px 5vh;
       padding-left: 48px;
     }
 
