@@ -91,6 +91,24 @@ html,body{
     flex: 1 0 0;
     align-self: stretch;
 
+    .tile {
+      display: flex;
+      flex-direction: row;
+      padding: 16px 0px;
+      align-items: center;
+      gap: 24px;
+      align-self: stretch;
+      color: #1F1F1F;
+      font-family: ff-zwo-web-pro, sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 46px;
+      line-height: normal;
+      font-variant: all-small-caps;
+      letter-spacing: -0.92px;
+      margin: 0 48px 0px 48px;
+    }
+
     .case {
       display: flex;
       padding-left: 0px;
@@ -108,24 +126,6 @@ html,body{
       letter-spacing: 1.32px;
       margin: 0 48px 0px 48px;
       padding-left: 48px;
-    }
-
-    .tile {
-      display: flex;
-      flex-direction: row;
-      padding: 16px 0px;
-      align-items: center;
-      gap: 24px;
-      align-self: stretch;
-      color: #1F1F1F;
-      font-family: ff-zwo-web-pro, sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      font-size: 46px;
-      line-height: normal;
-      font-variant: all-small-caps;
-      letter-spacing: -0.92px;
-      margin: 0 48px 0px 48px;
     }
 
     .line {
