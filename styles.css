@@ -29,7 +29,7 @@ html,body{
       font-family: mixta-pro, serif;
       font-weight: 400;
       font-style: italic;
-      font-size: 28px;
+      font-size: 2.92vh;
       line-height: 62%; /* 17.36px */
     }
   
@@ -39,7 +39,7 @@ html,body{
       font-family: ff-zwo-web-pro, sans-serif;
       font-weight: 100;
       font-style: normal;
-      font-size: 35px;
+      font-size: 3.649vh;
       line-height: 67%; /* 23.45px */
       font-variant: all-small-caps;
       letter-spacing: -1.75px;
@@ -102,7 +102,7 @@ html,body{
       font-family: ff-zwo-web-pro, sans-serif;
       font-weight: 100;
       font-style: normal;
-      font-size: 46px;
+      font-size: 4.796vh;
       line-height: normal;
       font-variant: all-small-caps;
       letter-spacing: -0.92px;
@@ -118,7 +118,7 @@ html,body{
       align-self: stretch;
       color: #1F1F1F;
       font-family: ff-zwo-web-pro, sans-serif;
-      font-size: 22px;
+      font-size: 2.294vh;
       font-style: normal;
       font-weight: 400;
       line-height: 100%; /* 22px */
