@@ -52,7 +52,7 @@ html,body{
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 0 0 0 152px;
+    padding: 0 0 0 15.85vh;
     position: relative;
     box-sizing: border-box;
     height: 46vh;
