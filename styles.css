@@ -1,156 +1,473 @@
 @import url("https://use.typekit.net/ctb0icl.css");
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Playfair+Display:ital@0;1&display=swap');
 
-html,body{
-  margin:0;
-  padding:0;
+
+html {
+  --highlight: #0066FF;
+  --textColor: #37685F;
+  --background: #9AFFC2;
+  --textSize: 24px;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.container {
-  
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  background: #FFF;
-  height: 100vh;
+  align-items: flex-end;
+  padding: 48px;
+  background: var(--background);
 
-  .nav {
-
-    display: flex;
-    padding: 5vh 5vh 0px 5vh;
-    align-items: flex-end;
-    gap: 17px;
-    align-self: stretch;
-  
-    .message {
-      flex: 1 0 0;
-      color: #1F1F1F;
-      font-family: mixta-pro, serif;
-      font-weight: 400;
-      font-style: italic;
-      font-size: 2.92vh;
-      line-height: 62%; /* 17.36px */
-    }
-  
-    .link {
-      color: #1F1F1F;
-      text-align: right;
-      font-family: ff-zwo-web-pro, sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      font-size: 3.649vh;
-      line-height: 67%; /* 23.45px */
-      font-variant: all-small-caps;
-      letter-spacing: -1.75px;
-    }
-  }
-
-  .myname {
-    width: 100%;
+  .topNav {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 0 0 0 15.85vh;
-    position: relative;
-    box-sizing: border-box;
-    height: 46vh;
+    height: min-content;
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 17px;
 
-    .rudy {
-      color: #1f1f1f;
-      font-size: 17.83vh;
-      font-family: mixta-sharp, serif;
-      font-weight: 900;
-      font-style: normal;
-      line-height: 15vh;
-      letter-spacing:  -.9vh;
-      text-transform: none;
+    .logo {
+      fill: var(--highlight);
+    }
+
+    .job_title {
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 50%;
+      font-weight: 300;
+      font-style: italic;
+      font-family: mixta-pro, serif;
+      height: min-content;
+      flex: 1;
+      flex-direction: column;
     }
     
-    .pizarro {
-      color: #1f1f1f;
-      font-size: 14.389vh;
-      font-style: italic;
-      font-family: 'Playfair Display', serif;
-      font-weight: 400;
-      line-height: 24.4vh;
-      letter-spacing:  -.6vh;
-      text-transform: none;
+    .resume {
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 60%;
+      font-weight: 300;
+      font-family: "Zwo Pro";
+      letter-spacing: 0.06em;
+      font-variant: all-small-caps;
+      width: min-content;
+      height: min-content;
+      text-align: end;
+      align-items: end;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    
+    .email {
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 60%;
+      font-weight: 300;
+      font-family: "Zwo Pro";
+      letter-spacing: 0.06em;
+      font-variant: all-small-caps;
+      width: min-content;
+      height: min-content;
+      text-align: end;
+      align-items: end;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .resumeSelected {
+      height: 6px;
+      width: 82px;
+      opacity: 0;
+      background-color: var(--highlight);
+      position: absolute;
+      transform: translateY(8px);
+    }
+
+    .emailSelected {
+      height: 6px;
+      width: 63px;
+      opacity: 0;
+      background-color: var(--highlight);
+      position: absolute;
+      transform: translateY(8px);
+    }
+
+    .hover {
+      opacity: 1;
     }
   }
-
-  .case-Studies {  
   
+  .hero {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    width: 100%;
-    gap: 8px;
-    flex: 1 0 0;
+    flex: 1;
+    height: 1px;
     align-self: stretch;
-
-    .tile {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    opacity: 1;
+  }
+  
+  .case_links {
+    display: flex;
+    flex: 0;
+    align-self: none;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    .title {
       display: flex;
       flex-direction: row;
-      padding: 16px 0px;
+      align-self: stretch;
       align-items: center;
       gap: 24px;
-      align-self: stretch;
-      color: #1F1F1F;
-      font-family: ff-zwo-web-pro, sans-serif;
-      font-weight: 100;
-      font-style: normal;
-      font-size: 4.796vh;
-      line-height: normal;
-      font-variant: all-small-caps;
-      letter-spacing: -0.92px;
-      margin: 0 5vh 0px 5vh;
+      padding: 0px 0 0px;
+    
+      .caseStudies {
+        color: var(--textColor);
+        font-size: 46px;
+        font-family: "Zwo Pro";
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        font-variant: all-small-caps;
+        width: min-content;
+        height: min-content;
+        white-space: nowrap;
+        display: initial;
+      }
+
+      .titleTm {
+        color: var(--textColor);
+        font-size: var(--textSize);
+        line-height: 100%;
+        font-weight: 300;
+        font-family: "Zwo Pro";
+        letter-spacing: 0.06em;
+        font-variant: all-small-caps;
+        white-space: nowrap;
+        display: none;
+      }
+      
+      .line {
+        width: 100%;
+        height: 1px;
+        background-color: var(--highlight);
+      }
+
+      .exit {
+        fill: var(--textColor);
+        display: none;
+        cursor: pointer;
+      }
+    }
+    
+    .caseContainer {
+      width: 100%;
+      height: 100%;
+      background-color: var(--background);
+      box-shadow: 0px 0px 0px 0px rgba(78, 255, 148, 0.64);
+      display: none;
     }
 
-    .case {
+    .cases {
       display: flex;
-      padding-left: 0px;
-      align-items: center;
-      gap: 40px;
-      flex: 1 0 0;
-      align-self: stretch;
-      color: #1F1F1F;
-      font-family: ff-zwo-web-pro, sans-serif;
-      font-size: 2.294vh;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 100%; /* 22px */
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 4vw;
+      padding: 16px 0 0 3px;
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 100%;
+      font-weight: 300;
+      font-family: "Zwo Pro";
+      letter-spacing: 0.06em;
       font-variant: all-small-caps;
-      letter-spacing: 1.32px;
-      margin: 0 5vh 0px 5vh;
-      padding-left: 48px;
+    
+      .taxManagement {
+        white-space: nowrap;
+        cursor: pointer;
+        display: initial;
+      }
+      
+      .airVehicleDashboard {
+        white-space: nowrap;
+        cursor: pointer;
+      }
+      
+      .flightScheduler {
+        white-space: nowrap;
+        cursor: pointer;
+      }
+
+      .taxManagementSelected {
+        height: 6px;
+        width: 190px;
+        opacity: 0;
+        background-color: var(--highlight);
+        position: absolute;
+        transform: translateY(8px);
+      }
+  
+      .airVehicleDashboardSelected {
+        height: 6px;
+        width: 260px;
+        opacity: 0;
+        background-color: var(--highlight);
+        position: absolute;
+        transform: translateY(8px);
+      }
+
+      .flightSchedulerSelected {
+        height: 6px;
+        width: 197px;
+        opacity: 0;
+        background-color: var(--highlight);
+        position: absolute;
+        transform: translateY(8px);
+      }
+  
+      .hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.caseTm {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 48px;
+  background: var(--background);
+
+  .topNav {
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 17px;
+
+    .logo {
+      fill: var(--highlight);
     }
 
-    .line {
-      height: 1px;
-      flex: 1 0 0;
-      background: #1F1F1F;
+    .job_title {
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 50%;
+      font-weight: 300;
+      font-style: italic;
+      font-family: mixta-pro, serif;
+      height: min-content;
+      flex: 1;
+      flex-direction: column;
+    }
+    
+    .resume {
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 60%;
+      font-weight: 300;
+      font-family: "Zwo Pro";
+      letter-spacing: 0.06em;
+      font-variant: all-small-caps;
+      width: min-content;
+      height: min-content;
+      text-align: end;
+      align-items: end;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+    
+    .email {
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 60%;
+      font-weight: 300;
+      font-family: "Zwo Pro";
+      letter-spacing: 0.06em;
+      font-variant: all-small-caps;
+      width: min-content;
+      height: min-content;
+      text-align: end;
+      align-items: end;
+      white-space: nowrap;
+      cursor: pointer;
     }
 
-    .one { 
-      border-radius: 2px;
-      border-left: 8px solid #4AFFC8;
-      background: linear-gradient(270deg, #4AFFC8 0%, rgba(255, 255, 255, 0.00) 100%);
+    .resumeSelected {
+      height: 6px;
+      width: 82px;
+      opacity: 0;
+      background-color: var(--highlight);
+      position: absolute;
+      transform: translateY(8px);
+    }
+
+    .emailSelected {
+      height: 6px;
+      width: 63px;
+      opacity: 0;
+      background-color: var(--highlight);
+      position: absolute;
+      transform: translateY(8px);
+    }
+
+    .hover {
+      opacity: 1;
+    }
+  }
+  
+  .hero {
+    display: flex;
+    flex: 0;
+    height: 1px;
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    opacity: 0;
+  }
+  
+  .case_links {
+    display: flex;
+    flex: 1;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    .title {
+      display: flex;
+      flex-direction: row;
+      align-self: stretch;
+      align-items: center;
+      gap: 24px;
+      padding: 24px 0 16px;
+    
+      .caseStudies {
+        color: var(--textColor);
+        font-size: 46px;
+        font-family: "Zwo Pro";
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        font-variant: all-small-caps;
+        width: min-content;
+        height: min-content;
+        white-space: nowrap;
+        display: none;
+      }
+
+      .titleTm {
+        color: var(--textColor);
+        font-size: var(--textSize);
+        line-height: 100%;
+        font-weight: 300;
+        font-family: "Zwo Pro";
+        letter-spacing: 0.06em;
+        font-variant: all-small-caps;
+        white-space: nowrap;
+        display: initial;
+      }
+      
+      .line {
+        width: 100%;
+        height: 1px;
+        background-color: var(--highlight);
+      }
+
+      .exit {
+        fill: var(--textColor);
+        display: initial;
+        cursor: pointer;
+      }
     }
     
-    .two { 
-      border-radius: 2px;
-      border-left: 8px solid #A69EFF;
-      background: linear-gradient(270deg, #A69EFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    .caseContainer {
+      width: 100%;
+      height: 100%;
+      background-color: var(--background);
+      box-shadow: 0px 0px 16px 0px rgba(78, 255, 148, 0.64);
+      border-radius: 8px 8px 8px 8px;
+      display: initial;
+      overflow: hidden;
     }
+
+    .cases {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 4vw;
+      padding: 1.33vw 0 0 3px;
+      color: var(--textColor);
+      font-size: var(--textSize);
+      line-height: 100%;
+      font-weight: 300;
+      font-family: "Zwo Pro";
+      letter-spacing: 0.06em;
+      font-variant: all-small-caps;
     
-    .three { 
-      border-radius: 2px;
-      border-left: 8px solid #4A92FF;
-      background: linear-gradient(270deg, #4A92FF 0%, rgba(255, 255, 255, 0.00) 100%);
-      margin: 0 5vh 5vh 5vh;
+      .taxManagement {
+        white-space: nowrap;
+        cursor: pointer;
+        display: none;
+      }
+      
+      .airVehicleDashboard {
+        white-space: nowrap;
+        cursor: pointer;
+      }
+      
+      .flightScheduler {
+        white-space: nowrap;
+        cursor: pointer;
+      }
+
+      .taxManagementSelected {
+        height: 6px;
+        width: 190px;
+        opacity: 0;
+        background-color: var(--highlight);
+        position: absolute;
+        transform: translateY(8px);
+      }
+  
+      .airVehicleDashboardSelected {
+        height: 6px;
+        width: 260px;
+        opacity: 0;
+        background-color: var(--highlight);
+        position: absolute;
+        transform: translateY(8px);
+      }
+
+      .flightSchedulerSelected {
+        height: 6px;
+        width: 197px;
+        opacity: 0;
+        background-color: var(--highlight);
+        position: absolute;
+        transform: translateY(8px);
+      }
+  
+      .hover {
+        opacity: 1;
+      }
     }
   }
 }
