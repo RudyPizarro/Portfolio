@@ -54,7 +54,7 @@ html {
       font-size: var(--textSize);
       line-height: 60%;
       font-weight: 300;
-      font-family: "Zwo Pro";
+      font-family: ff-zwo-web-pro, sans-serif;
       letter-spacing: 0.06em;
       font-variant: all-small-caps;
       width: min-content;
@@ -70,7 +70,7 @@ html {
       font-size: var(--textSize);
       line-height: 60%;
       font-weight: 300;
-      font-family: "Zwo Pro";
+      font-family: ff-zwo-web-pro, sans-serif;
       letter-spacing: 0.06em;
       font-variant: all-small-caps;
       width: min-content;
@@ -106,8 +106,7 @@ html {
   
   .hero {
     display: flex;
-    flex: 1;
-    height: 1px;
+    height: 100%;
     align-self: stretch;
     flex-direction: row;
     justify-content: flex-start;
@@ -135,7 +134,7 @@ html {
       .caseStudies {
         color: var(--textColor);
         font-size: 46px;
-        font-family: "Zwo Pro";
+        font-family: ff-zwo-web-pro, sans-serif;
         font-weight: 300;
         letter-spacing: -0.02em;
         font-variant: all-small-caps;
@@ -150,7 +149,7 @@ html {
         font-size: var(--textSize);
         line-height: 100%;
         font-weight: 300;
-        font-family: "Zwo Pro";
+        font-family: ff-zwo-web-pro, sans-serif;
         letter-spacing: 0.06em;
         font-variant: all-small-caps;
         white-space: nowrap;
@@ -171,11 +170,13 @@ html {
     }
     
     .caseContainer {
+      display: none;
       width: 100%;
       height: 100%;
       background-color: var(--background);
       box-shadow: 0px 0px 0px 0px rgba(78, 255, 148, 0.64);
-      display: none;
+      border-radius: 8px 8px 8px 8px;
+      overflow: hidden;
     }
 
     .cases {
@@ -188,7 +189,7 @@ html {
       font-size: var(--textSize);
       line-height: 100%;
       font-weight: 300;
-      font-family: "Zwo Pro";
+      font-family: ff-zwo-web-pro, sans-serif;
       letter-spacing: 0.06em;
       font-variant: all-small-caps;
     
@@ -282,7 +283,7 @@ html {
       font-size: var(--textSize);
       line-height: 60%;
       font-weight: 300;
-      font-family: "Zwo Pro";
+      font-family: ff-zwo-web-pro, sans-serif;
       letter-spacing: 0.06em;
       font-variant: all-small-caps;
       width: min-content;
@@ -297,8 +298,9 @@ html {
       color: var(--textColor);
       font-size: var(--textSize);
       line-height: 60%;
+      font-family: ff-zwo-web-pro, sans-serif;
       font-weight: 300;
-      font-family: "Zwo Pro";
+      font-style: normal;
       letter-spacing: 0.06em;
       font-variant: all-small-caps;
       width: min-content;
@@ -334,8 +336,7 @@ html {
   
   .hero {
     display: flex;
-    flex: 0;
-    height: 1px;
+    height: 0%;
     align-self: stretch;
     flex-direction: row;
     justify-content: flex-start;
@@ -363,7 +364,7 @@ html {
       .caseStudies {
         color: var(--textColor);
         font-size: 46px;
-        font-family: "Zwo Pro";
+        font-family: ff-zwo-web-pro, sans-serif;
         font-weight: 300;
         letter-spacing: -0.02em;
         font-variant: all-small-caps;
@@ -378,7 +379,7 @@ html {
         font-size: var(--textSize);
         line-height: 100%;
         font-weight: 300;
-        font-family: "Zwo Pro";
+        font-family: ff-zwo-web-pro, sans-serif;
         letter-spacing: 0.06em;
         font-variant: all-small-caps;
         white-space: nowrap;
@@ -399,12 +400,12 @@ html {
     }
     
     .caseContainer {
+      display: flex;
       width: 100%;
       height: 100%;
       background-color: var(--background);
       box-shadow: 0px 0px 16px 0px rgba(78, 255, 148, 0.64);
       border-radius: 8px 8px 8px 8px;
-      display: initial;
       overflow: hidden;
     }
 
@@ -418,7 +419,7 @@ html {
       font-size: var(--textSize);
       line-height: 100%;
       font-weight: 300;
-      font-family: "Zwo Pro";
+      font-family: ff-zwo-web-pro, sans-serif;
       letter-spacing: 0.06em;
       font-variant: all-small-caps;
     
