@@ -3,15 +3,18 @@
 
 
 html {
-  --highlight: #0066FF;
-  --textColor: #37685F;
-  --background: #9AFFC2;
+  --highlight: #0075FF;
+  --linkColor: #032041;
+  --background: linear-gradient(180deg, #E7F5FE 0%, #BDE3FE 100%);
   --textSize: 24px;
   margin: 0;
   padding: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: #E7F5FE;
+  background-image: radial-gradient(#0075FF 0.5px, #E7F5FE 0.5px);
+  background-size: 10px 10px;
 }
 
 .home {
@@ -23,7 +26,6 @@ html {
   flex-direction: column;
   align-items: flex-end;
   padding: 48px;
-  background: var(--background);
 
   .topNav {
     display: flex;
@@ -38,11 +40,12 @@ html {
     }
 
     .job_title {
-      color: var(--textColor);
+      color: var(--highlight);
       font-size: var(--textSize);
       line-height: 50%;
-      font-weight: 300;
+      font-weight: 400;
       font-style: italic;
+      letter-spacing: 1;
       font-family: mixta-pro, serif;
       height: min-content;
       flex: 1;
@@ -50,7 +53,7 @@ html {
     }
     
     .resume {
-      color: var(--textColor);
+      color: var(--linkColor);
       font-size: var(--textSize);
       line-height: 60%;
       font-weight: 300;
@@ -66,7 +69,7 @@ html {
     }
     
     .email {
-      color: var(--textColor);
+      color: var(--linkColor);
       font-size: var(--textSize);
       line-height: 60%;
       font-weight: 300;
@@ -132,7 +135,7 @@ html {
       padding: 0px 0 0px;
     
       .caseStudies {
-        color: var(--textColor);
+        color: var(--highlight);
         font-size: 46px;
         font-family: ff-zwo-web-pro, sans-serif;
         font-weight: 300;
@@ -145,7 +148,7 @@ html {
       }
 
       .titleTm {
-        color: var(--textColor);
+        color: var(--linkColor);
         font-size: var(--textSize);
         line-height: 100%;
         font-weight: 300;
@@ -163,7 +166,7 @@ html {
       }
 
       .exit {
-        fill: var(--textColor);
+        fill: var(--linkColor);
         display: none;
         cursor: pointer;
       }
@@ -174,7 +177,6 @@ html {
       width: 100%;
       height: 100%;
       background-color: var(--background);
-      box-shadow: 0px 0px 0px 0px rgba(78, 255, 148, 0.64);
       border-radius: 8px 8px 8px 8px;
       overflow: hidden;
     }
@@ -185,7 +187,7 @@ html {
       align-items: flex-start;
       gap: 4vw;
       padding: 16px 0 0 3px;
-      color: var(--textColor);
+      color: var(--linkColor);
       font-size: var(--textSize);
       line-height: 100%;
       font-weight: 300;
@@ -252,7 +254,6 @@ html {
   flex-direction: column;
   align-items: flex-end;
   padding: 48px;
-  background: var(--background);
 
   .topNav {
     display: flex;
@@ -267,11 +268,12 @@ html {
     }
 
     .job_title {
-      color: var(--textColor);
+      color: var(--highlight);
       font-size: var(--textSize);
       line-height: 50%;
-      font-weight: 300;
+      font-weight: 400;
       font-style: italic;
+      letter-spacing: 1;
       font-family: mixta-pro, serif;
       height: min-content;
       flex: 1;
@@ -279,7 +281,7 @@ html {
     }
     
     .resume {
-      color: var(--textColor);
+      color: var(--linkColor);
       font-size: var(--textSize);
       line-height: 60%;
       font-weight: 300;
@@ -295,7 +297,7 @@ html {
     }
     
     .email {
-      color: var(--textColor);
+      color: var(--linkColor);
       font-size: var(--textSize);
       line-height: 60%;
       font-family: ff-zwo-web-pro, sans-serif;
@@ -362,7 +364,7 @@ html {
       padding: 24px 0 16px;
     
       .caseStudies {
-        color: var(--textColor);
+        color: var(--linkColor);
         font-size: 46px;
         font-family: ff-zwo-web-pro, sans-serif;
         font-weight: 300;
@@ -375,7 +377,7 @@ html {
       }
 
       .titleTm {
-        color: var(--textColor);
+        color: var(--highlight);
         font-size: var(--textSize);
         line-height: 100%;
         font-weight: 300;
@@ -393,7 +395,7 @@ html {
       }
 
       .exit {
-        fill: var(--textColor);
+        fill: var(--linkColor);
         display: initial;
         cursor: pointer;
       }
@@ -404,7 +406,6 @@ html {
       width: 100%;
       height: 100%;
       background-color: var(--background);
-      box-shadow: 0px 0px 16px 0px rgba(78, 255, 148, 0.64);
       border-radius: 8px 8px 8px 8px;
       overflow: hidden;
     }
@@ -415,7 +416,7 @@ html {
       align-items: flex-start;
       gap: 4vw;
       padding: 1.33vw 0 0 3px;
-      color: var(--textColor);
+      color: var(--linkColor);
       font-size: var(--textSize);
       line-height: 100%;
       font-weight: 300;
